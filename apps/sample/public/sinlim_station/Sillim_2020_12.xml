@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Project>
+    <ProjectInfo gkxmlVersion="1.2">
+        <Title>Sillim_2020_12</Title>
+    </ProjectInfo>
+    <Building sourceType="GPL" northAxis="0.000000">
+        <EarthReferenceSystem type="WGS84">
+            <altitudeMode>relativeToGround</altitudeMode>
+            <Location>
+                <longitude>126.9775009</longitude>
+                <latitude>37.5680542</latitude>
+                <altitude>0</altitude>
+            </Location>
+            <Orientation>
+                <heading>0</heading>
+                <tilt>0.0</tilt>
+                <roll>0.0</roll>
+            </Orientation>
+        </EarthReferenceSystem>
+        <ExportOptions>
+            <Item name="floorMerge" value="false" />
+            <Item name="wallMerge" value="true" />
+        </ExportOptions>
+        <Unit>centimeter</Unit>
+        <DefaultBuilding>false</DefaultBuilding>
+        <DefaultFloor>0</DefaultFloor>
+        <Floors>
+            <Floor id="0" name="레일" baseFloor="-1" groupID="0" isMain="False">
+                <FileSource name=".\Sillim_2020_12_레일_0.sbm" type="SBM" />
+                <BoundingBox minimum="-15264.911133, -1360.000000, -970.973877" maximum="26396.041016, -1200.000000, 1410.885498" />
+            </Floor>
+            <Floor id="1" name="승강장" baseFloor="1" groupID="0" isMain="True">
+                <FileSource name=".\Sillim_2020_12_승강장_1.sbm" type="SBM" />
+                <BoundingBox minimum="-15264.911133, -1200.005859, -971.040649" maximum="26396.041016, 2121.000000, 1410.852295" />
+            </Floor>
+            <Floor id="2" name="대합실" baseFloor="2" groupID="1" isMain="True">
+                <FileSource name=".\Sillim_2020_12_대합실_2.sbm" type="SBM" />
+                <BoundingBox minimum="-6021.517090, -767.200012, -7624.314941" maximum="16272.724609, 2323.000000, 1764.808716" />
+            </Floor>
+            <Floor id="3" name="출구_계단" baseFloor="3" groupID="1" isMain="False">
+                <FileSource name=".\Sillim_2020_12_출구_계단_3.sbm" type="SBM" />
+                <BoundingBox minimum="-2096.656250, -657.089294, -10547.504883" maximum="7410.854980, 10449.747070, 10547.508789" />
+            </Floor>
+            <Floor id="4" name="출구" baseFloor="4" groupID="1" isMain="False">
+                <FileSource name=".\Sillim_2020_12_출구_4.sbm" type="SBM" />
+                <BoundingBox minimum="-2405.000000, 0.000000, -4446.509766" maximum="8005.000000, 560.000000, 4354.316406" />
+            </Floor>
+        </Floors>
+        <SpaceInfo>
+            <Floor id="0" name="레일" longname="396509778" baseFloor="-1" level="-1360.000000" />
+            <Floor id="1" name="승강장" longname="454917014" baseFloor="1" level="-1200.000000" />
+            <Floor id="2" name="대합실" longname="1654037933" baseFloor="2" level="-736.000000" />
+            <Floor id="3" name="출구_계단" longname="639019484" baseFloor="3" level="-656.000000" />
+            <Floor id="4" name="출구" longname="944532350" baseFloor="4" level="0.000000" />
+        </SpaceInfo>
+        <ObjectHierarchy>
+            <Entity id="0" name="레일" type="Floor" longname="396509778">
+                <Entity id="10" name="MERGED_0_LIBENT10_0" longname="" type="MERGED" />
+                <Entity id="16" name="MERGED_0_LIBENT165_0" longname="" type="MERGED" />
+                <Entity id="13" name="MERGED_0_LIBENT166_0" longname="" type="MERGED" />
+                <Entity id="12" name="MERGED_0_LIBENT167_0" longname="" type="MERGED" />
+                <Entity id="9" name="MERGED_0_LIBENT1_0" longname="" type="MERGED" />
+                <Entity id="8" name="MERGED_0_LIBENT211_0" longname="" type="MERGED" />
+                <Entity id="11" name="MERGED_0_LIBENT259_0" longname="" type="MERGED" />
+                <Entity id="14" name="MERGED_0_LIBENT260_0" longname="" type="MERGED" />
+                <Entity id="15" name="MERGED_0_LIBENT261_0" longname="" type="MERGED" />
+                <Entity id="17" name="MERGED_0_LIBENT262_0" longname="" type="MERGED" />
+                <Entity id="6" name="MERGED_0_LIBENT2_0" longname="" type="MERGED" />
+                <Entity id="7" name="MERGED_0_LIBENT3_0" longname="" type="MERGED" />
+                <Entity id="5" name="MERGED_0_LIBENT7_0" longname="" type="MERGED" />
+            </Entity>
+            <Entity id="1" name="승강장" type="Floor" longname="454917014">
+                <Entity id="105" name="MERGED_1_BlockY/BlockY_0" longname="" type="MERGED" />
+                <Entity id="117" name="MERGED_1_ChairP/ChairP_0" longname="" type="MERGED" />
+                <Entity id="106" name="MERGED_1_FireBox01/FireBox01_0" longname="" type="MERGED" />
+                <Entity id="107" name="MERGED_1_FireT/FireT_0" longname="" type="MERGED" />
+                <Entity id="40" name="MERGED_1_LIBENT0_0" longname="" type="MERGED" />
+                <Entity id="35" name="MERGED_1_LIBENT10_0" longname="" type="MERGED" />
+                <Entity id="11" name="MERGED_1_LIBENT122_0" longname="" type="MERGED" />
+                <Entity id="13" name="MERGED_1_LIBENT123_0" longname="" type="MERGED" />
+                <Entity id="12" name="MERGED_1_LIBENT124_0" longname="" type="MERGED" />
+                <Entity id="8" name="MERGED_1_LIBENT125_0" longname="" type="MERGED" />
+                <Entity id="69" name="MERGED_1_LIBENT127_0" longname="" type="MERGED" />
+                <Entity id="43" name="MERGED_1_LIBENT12_0" longname="" type="MERGED" />
+                <Entity id="68" name="MERGED_1_LIBENT131_0" longname="" type="MERGED" />
+                <Entity id="75" name="MERGED_1_LIBENT132_0" longname="" type="MERGED" />
+                <Entity id="59" name="MERGED_1_LIBENT140_0" longname="" type="MERGED" />
+                <Entity id="54" name="MERGED_1_LIBENT141_0" longname="" type="MERGED" />
+                <Entity id="56" name="MERGED_1_LIBENT153_0" longname="" type="MERGED" />
+                <Entity id="53" name="MERGED_1_LIBENT154_0" longname="" type="MERGED" />
+                <Entity id="62" name="MERGED_1_LIBENT155_0" longname="" type="MERGED" />
+                <Entity id="30" name="MERGED_1_LIBENT159_0" longname="" type="MERGED" />
+                <Entity id="14" name="MERGED_1_LIBENT15_0" longname="" type="MERGED" />
+                <Entity id="41" name="MERGED_1_LIBENT16_0" longname="" type="MERGED" />
+                <Entity id="70" name="MERGED_1_LIBENT182_0" longname="" type="MERGED" />
+                <Entity id="5" name="MERGED_1_LIBENT18_0" longname="" type="MERGED" />
+                <Entity id="88" name="MERGED_1_LIBENT191_0" longname="" type="MERGED" />
+                <Entity id="87" name="MERGED_1_LIBENT192_0" longname="" type="MERGED" />
+                <Entity id="16" name="MERGED_1_LIBENT196_0" longname="" type="MERGED" />
+                <Entity id="17" name="MERGED_1_LIBENT197_0" longname="" type="MERGED" />
+                <Entity id="22" name="MERGED_1_LIBENT198_0" longname="" type="MERGED" />
+                <Entity id="18" name="MERGED_1_LIBENT199_0" longname="" type="MERGED" />
+                <Entity id="6" name="MERGED_1_LIBENT1_0" longname="" type="MERGED" />
+                <Entity id="23" name="MERGED_1_LIBENT200_0" longname="" type="MERGED" />
+                <Entity id="52" name="MERGED_1_LIBENT201_0" longname="" type="MERGED" />
+                <Entity id="50" name="MERGED_1_LIBENT202_0" longname="" type="MERGED" />
+                <Entity id="91" name="MERGED_1_LIBENT203_0" longname="" type="MERGED" />
+                <Entity id="42" name="MERGED_1_LIBENT219_0" longname="" type="MERGED" />
+                <Entity id="58" name="MERGED_1_LIBENT220_0" longname="" type="MERGED" />
+                <Entity id="63" name="MERGED_1_LIBENT221_0" longname="" type="MERGED" />
+                <Entity id="95" name="MERGED_1_LIBENT222_0" longname="" type="MERGED" />
+                <Entity id="65" name="MERGED_1_LIBENT223_0" longname="" type="MERGED" />
+                <Entity id="64" name="MERGED_1_LIBENT224_0" longname="" type="MERGED" />
+                <Entity id="90" name="MERGED_1_LIBENT225_0" longname="" type="MERGED" />
+                <Entity id="92" name="MERGED_1_LIBENT226_0" longname="" type="MERGED" />
+                <Entity id="82" name="MERGED_1_LIBENT227_0" longname="" type="MERGED" />
+                <Entity id="89" name="MERGED_1_LIBENT228_0" longname="" type="MERGED" />
+                <Entity id="96" name="MERGED_1_LIBENT229_0" longname="" type="MERGED" />
+                <Entity id="55" name="MERGED_1_LIBENT230_0" longname="" type="MERGED" />
+                <Entity id="49" name="MERGED_1_LIBENT231_0" longname="" type="MERGED" />
+                <Entity id="51" name="MERGED_1_LIBENT232_0" longname="" type="MERGED" />
+                <Entity id="100" name="MERGED_1_LIBENT233_0" longname="" type="MERGED" />
+                <Entity id="67" name="MERGED_1_LIBENT234_0" longname="" type="MERGED" />
+                <Entity id="98" name="MERGED_1_LIBENT235_0" longname="" type="MERGED" />
+                <Entity id="83" name="MERGED_1_LIBENT236_0" longname="" type="MERGED" />
+                <Entity id="66" name="MERGED_1_LIBENT241_0" longname="" type="MERGED" />
+                <Entity id="99" name="MERGED_1_LIBENT242_0" longname="" type="MERGED" />
+                <Entity id="97" name="MERGED_1_LIBENT243_0" longname="" type="MERGED" />
+                <Entity id="72" name="MERGED_1_LIBENT244_0" longname="" type="MERGED" />
+                <Entity id="101" name="MERGED_1_LIBENT245_0" longname="" type="MERGED" />
+                <Entity id="102" name="MERGED_1_LIBENT246_0" longname="" type="MERGED" />
+                <Entity id="103" name="MERGED_1_LIBENT247_0" longname="" type="MERGED" />
+                <Entity id="20" name="MERGED_1_LIBENT248_0" longname="" type="MERGED" />
+                <Entity id="21" name="MERGED_1_LIBENT249_0" longname="" type="MERGED" />
+                <Entity id="19" name="MERGED_1_LIBENT250_0" longname="" type="MERGED" />
+                <Entity id="38" name="MERGED_1_LIBENT263_0" longname="" type="MERGED" />
+                <Entity id="34" name="MERGED_1_LIBENT264_0" longname="" type="MERGED" />
+                <Entity id="31" name="MERGED_1_LIBENT265_0" longname="" type="MERGED" />
+                <Entity id="39" name="MERGED_1_LIBENT266_0" longname="" type="MERGED" />
+                <Entity id="37" name="MERGED_1_LIBENT267_0" longname="" type="MERGED" />
+                <Entity id="33" name="MERGED_1_LIBENT268_0" longname="" type="MERGED" />
+                <Entity id="32" name="MERGED_1_LIBENT269_0" longname="" type="MERGED" />
+                <Entity id="36" name="MERGED_1_LIBENT270_0" longname="" type="MERGED" />
+                <Entity id="47" name="MERGED_1_LIBENT29_0" longname="" type="MERGED" />
+                <Entity id="9" name="MERGED_1_LIBENT2_0" longname="" type="MERGED" />
+                <Entity id="60" name="MERGED_1_LIBENT30_0" longname="" type="MERGED" />
+                <Entity id="73" name="MERGED_1_LIBENT31_0" longname="" type="MERGED" />
+                <Entity id="24" name="MERGED_1_LIBENT32_0" longname="" type="MERGED" />
+                <Entity id="61" name="MERGED_1_LIBENT33_0" longname="" type="MERGED" />
+                <Entity id="77" name="MERGED_1_LIBENT34_0" longname="" type="MERGED" />
+                <Entity id="48" name="MERGED_1_LIBENT35_0" longname="" type="MERGED" />
+                <Entity id="78" name="MERGED_1_LIBENT38_0" longname="" type="MERGED" />
+                <Entity id="79" name="MERGED_1_LIBENT39_0" longname="" type="MERGED" />
+                <Entity id="7" name="MERGED_1_LIBENT3_0" longname="" type="MERGED" />
+                <Entity id="80" name="MERGED_1_LIBENT41_0" longname="" type="MERGED" />
+                <Entity id="85" name="MERGED_1_LIBENT42_0" longname="" type="MERGED" />
+                <Entity id="26" name="MERGED_1_LIBENT45_0" longname="" type="MERGED" />
+                <Entity id="28" name="MERGED_1_LIBENT46_0" longname="" type="MERGED" />
+                <Entity id="25" name="MERGED_1_LIBENT47_0" longname="" type="MERGED" />
+                <Entity id="27" name="MERGED_1_LIBENT48_0" longname="" type="MERGED" />
+                <Entity id="29" name="MERGED_1_LIBENT49_0" longname="" type="MERGED" />
+                <Entity id="81" name="MERGED_1_LIBENT50_0" longname="" type="MERGED" />
+                <Entity id="71" name="MERGED_1_LIBENT51_0" longname="" type="MERGED" />
+                <Entity id="104" name="MERGED_1_LIBENT55_0" longname="" type="MERGED" />
+                <Entity id="57" name="MERGED_1_LIBENT65_0" longname="" type="MERGED" />
+                <Entity id="93" name="MERGED_1_LIBENT74_0" longname="" type="MERGED" />
+                <Entity id="86" name="MERGED_1_LIBENT75_0" longname="" type="MERGED" />
+                <Entity id="94" name="MERGED_1_LIBENT76_0" longname="" type="MERGED" />
+                <Entity id="84" name="MERGED_1_LIBENT78_0" longname="" type="MERGED" />
+                <Entity id="15" name="MERGED_1_LIBENT7_0" longname="" type="MERGED" />
+                <Entity id="76" name="MERGED_1_LIBENT87_0" longname="" type="MERGED" />
+                <Entity id="74" name="MERGED_1_LIBENT88_0" longname="" type="MERGED" />
+                <Entity id="45" name="MERGED_1_LIBENT95_0" longname="" type="MERGED" />
+                <Entity id="46" name="MERGED_1_LIBENT96_0" longname="" type="MERGED" />
+                <Entity id="10" name="MERGED_1_LIBENT98_0" longname="" type="MERGED" />
+                <Entity id="44" name="MERGED_1_LIBENT9_0" longname="" type="MERGED" />
+                <Entity id="108" name="MERGED_1_Relief01/Relief01_0" longname="" type="MERGED" />
+                <Entity id="114" name="MERGED_1_Smart_Station_Bench_01/20-Default_0" longname="" type="MERGED" />
+                <Entity id="112" name="MERGED_1_Smart_Station_Emergency_Light/16-Default_0" longname="" type="MERGED" />
+                <Entity id="111" name="MERGED_1_Smart_Station_Guide_Monitor/guide_0" longname="" type="MERGED" />
+                <Entity id="115" name="MERGED_1_Smart_Station_SOS_Call/06-Default_0" longname="" type="MERGED" />
+                <Entity id="110" name="MERGED_1_Smart_Station_S_Map/smap_0" longname="" type="MERGED" />
+                <Entity id="109" name="MERGED_1_Smart_Station_Track_ENT_03/Smart_Station_Track_ENT_t_0" longname="" type="MERGED" />
+                <Entity id="113" name="MERGED_1_Smart_Station_Vending_02/15-Default_0" longname="" type="MERGED" />
+                <Entity id="116" name="MERGED_1_Smart_Station_Vending_03/17-Default_0" longname="" type="MERGED" />
+                <Entity id="118" name="MERGED_1_Smart_Station_Vending_04/23-Default_0" longname="" type="MERGED" />
+            </Entity>
+            <Entity id="2" name="대합실" type="Floor" longname="1654037933">
+                <Entity id="158" name="MERGED_2_AED/AED_0" longname="" type="MERGED" />
+                <Entity id="134" name="MERGED_2_BlockWh/BlockWh_0" longname="" type="MERGED" />
+                <Entity id="135" name="MERGED_2_BlockY/BlockY_0" longname="" type="MERGED" />
+                <Entity id="152" name="MERGED_2_DisableP/DisableP_0" longname="" type="MERGED" />
+                <Entity id="143" name="MERGED_2_FireT/FireT_0" longname="" type="MERGED" />
+                <Entity id="146" name="MERGED_2_InforC/InforC_0" longname="" type="MERGED" />
+                <Entity id="35" name="MERGED_2_LIBENT0_0" longname="" type="MERGED" />
+                <Entity id="70" name="MERGED_2_LIBENT100_0" longname="" type="MERGED" />
+                <Entity id="62" name="MERGED_2_LIBENT101_0" longname="" type="MERGED" />
+                <Entity id="96" name="MERGED_2_LIBENT102_0" longname="" type="MERGED" />
+                <Entity id="115" name="MERGED_2_LIBENT103_0" longname="" type="MERGED" />
+                <Entity id="107" name="MERGED_2_LIBENT104_0" longname="" type="MERGED" />
+                <Entity id="114" name="MERGED_2_LIBENT105_0" longname="" type="MERGED" />
+                <Entity id="46" name="MERGED_2_LIBENT106_0" longname="" type="MERGED" />
+                <Entity id="53" name="MERGED_2_LIBENT107_0" longname="" type="MERGED" />
+                <Entity id="122" name="MERGED_2_LIBENT108_0" longname="" type="MERGED" />
+                <Entity id="52" name="MERGED_2_LIBENT109_0" longname="" type="MERGED" />
+                <Entity id="119" name="MERGED_2_LIBENT110_0" longname="" type="MERGED" />
+                <Entity id="120" name="MERGED_2_LIBENT111_0" longname="" type="MERGED" />
+                <Entity id="112" name="MERGED_2_LIBENT112_0" longname="" type="MERGED" />
+                <Entity id="71" name="MERGED_2_LIBENT113_0" longname="" type="MERGED" />
+                <Entity id="58" name="MERGED_2_LIBENT114_0" longname="" type="MERGED" />
+                <Entity id="100" name="MERGED_2_LIBENT116_0" longname="" type="MERGED" />
+                <Entity id="33" name="MERGED_2_LIBENT11_0" longname="" type="MERGED" />
+                <Entity id="57" name="MERGED_2_LIBENT126_0" longname="" type="MERGED" />
+                <Entity id="74" name="MERGED_2_LIBENT127_0" longname="" type="MERGED" />
+                <Entity id="17" name="MERGED_2_LIBENT128_0" longname="" type="MERGED" />
+                <Entity id="20" name="MERGED_2_LIBENT129_0" longname="" type="MERGED" />
+                <Entity id="38" name="MERGED_2_LIBENT12_0" longname="" type="MERGED" />
+                <Entity id="22" name="MERGED_2_LIBENT130_0" longname="" type="MERGED" />
+                <Entity id="126" name="MERGED_2_LIBENT131_0" longname="" type="MERGED" />
+                <Entity id="85" name="MERGED_2_LIBENT133_0" longname="" type="MERGED" />
+                <Entity id="68" name="MERGED_2_LIBENT135_0" longname="" type="MERGED" />
+                <Entity id="117" name="MERGED_2_LIBENT136_0" longname="" type="MERGED" />
+                <Entity id="48" name="MERGED_2_LIBENT137_0" longname="" type="MERGED" />
+                <Entity id="43" name="MERGED_2_LIBENT138_0" longname="" type="MERGED" />
+                <Entity id="55" name="MERGED_2_LIBENT139_0" longname="" type="MERGED" />
+                <Entity id="59" name="MERGED_2_LIBENT142_0" longname="" type="MERGED" />
+                <Entity id="89" name="MERGED_2_LIBENT143_0" longname="" type="MERGED" />
+                <Entity id="121" name="MERGED_2_LIBENT144_0" longname="" type="MERGED" />
+                <Entity id="95" name="MERGED_2_LIBENT145_0" longname="" type="MERGED" />
+                <Entity id="101" name="MERGED_2_LIBENT146_0" longname="" type="MERGED" />
+                <Entity id="75" name="MERGED_2_LIBENT147_0" longname="" type="MERGED" />
+                <Entity id="94" name="MERGED_2_LIBENT148_0" longname="" type="MERGED" />
+                <Entity id="102" name="MERGED_2_LIBENT149_0" longname="" type="MERGED" />
+                <Entity id="111" name="MERGED_2_LIBENT150_0" longname="" type="MERGED" />
+                <Entity id="51" name="MERGED_2_LIBENT151_0" longname="" type="MERGED" />
+                <Entity id="45" name="MERGED_2_LIBENT152_0" longname="" type="MERGED" />
+                <Entity id="36" name="MERGED_2_LIBENT156_0" longname="" type="MERGED" />
+                <Entity id="79" name="MERGED_2_LIBENT157_0" longname="" type="MERGED" />
+                <Entity id="80" name="MERGED_2_LIBENT158_0" longname="" type="MERGED" />
+                <Entity id="34" name="MERGED_2_LIBENT159_0" longname="" type="MERGED" />
+                <Entity id="23" name="MERGED_2_LIBENT15_0" longname="" type="MERGED" />
+                <Entity id="105" name="MERGED_2_LIBENT163_0" longname="" type="MERGED" />
+                <Entity id="104" name="MERGED_2_LIBENT164_0" longname="" type="MERGED" />
+                <Entity id="21" name="MERGED_2_LIBENT168_0" longname="" type="MERGED" />
+                <Entity id="76" name="MERGED_2_LIBENT169_0" longname="" type="MERGED" />
+                <Entity id="37" name="MERGED_2_LIBENT16_0" longname="" type="MERGED" />
+                <Entity id="65" name="MERGED_2_LIBENT170_0" longname="" type="MERGED" />
+                <Entity id="123" name="MERGED_2_LIBENT171_0" longname="" type="MERGED" />
+                <Entity id="10" name="MERGED_2_LIBENT17_0" longname="" type="MERGED" />
+                <Entity id="87" name="MERGED_2_LIBENT181_0" longname="" type="MERGED" />
+                <Entity id="50" name="MERGED_2_LIBENT182_0" longname="" type="MERGED" />
+                <Entity id="91" name="MERGED_2_LIBENT183_0" longname="" type="MERGED" />
+                <Entity id="82" name="MERGED_2_LIBENT184_0" longname="" type="MERGED" />
+                <Entity id="32" name="MERGED_2_LIBENT185_0" longname="" type="MERGED" />
+                <Entity id="72" name="MERGED_2_LIBENT186_0" longname="" type="MERGED" />
+                <Entity id="60" name="MERGED_2_LIBENT187_0" longname="" type="MERGED" />
+                <Entity id="83" name="MERGED_2_LIBENT188_0" longname="" type="MERGED" />
+                <Entity id="125" name="MERGED_2_LIBENT189_0" longname="" type="MERGED" />
+                <Entity id="84" name="MERGED_2_LIBENT190_0" longname="" type="MERGED" />
+                <Entity id="93" name="MERGED_2_LIBENT191_0" longname="" type="MERGED" />
+                <Entity id="64" name="MERGED_2_LIBENT192_0" longname="" type="MERGED" />
+                <Entity id="97" name="MERGED_2_LIBENT193_0" longname="" type="MERGED" />
+                <Entity id="118" name="MERGED_2_LIBENT194_0" longname="" type="MERGED" />
+                <Entity id="131" name="MERGED_2_LIBENT19_0" longname="" type="MERGED" />
+                <Entity id="14" name="MERGED_2_LIBENT1_0" longname="" type="MERGED" />
+                <Entity id="15" name="MERGED_2_LIBENT204_0" longname="" type="MERGED" />
+                <Entity id="12" name="MERGED_2_LIBENT205_0" longname="" type="MERGED" />
+                <Entity id="28" name="MERGED_2_LIBENT206_0" longname="" type="MERGED" />
+                <Entity id="56" name="MERGED_2_LIBENT207_0" longname="" type="MERGED" />
+                <Entity id="19" name="MERGED_2_LIBENT208_0" longname="" type="MERGED" />
+                <Entity id="11" name="MERGED_2_LIBENT209_0" longname="" type="MERGED" />
+                <Entity id="16" name="MERGED_2_LIBENT20_0" longname="" type="MERGED" />
+                <Entity id="18" name="MERGED_2_LIBENT210_0" longname="" type="MERGED" />
+                <Entity id="98" name="MERGED_2_LIBENT212_0" longname="" type="MERGED" />
+                <Entity id="113" name="MERGED_2_LIBENT213_0" longname="" type="MERGED" />
+                <Entity id="42" name="MERGED_2_LIBENT214_0" longname="" type="MERGED" />
+                <Entity id="130" name="MERGED_2_LIBENT215_0" longname="" type="MERGED" />
+                <Entity id="29" name="MERGED_2_LIBENT21_0" longname="" type="MERGED" />
+                <Entity id="31" name="MERGED_2_LIBENT22_0" longname="" type="MERGED" />
+                <Entity id="7" name="MERGED_2_LIBENT254_0" longname="" type="MERGED" />
+                <Entity id="67" name="MERGED_2_LIBENT25_0" longname="" type="MERGED" />
+                <Entity id="81" name="MERGED_2_LIBENT26_0" longname="" type="MERGED" />
+                <Entity id="44" name="MERGED_2_LIBENT27_0" longname="" type="MERGED" />
+                <Entity id="86" name="MERGED_2_LIBENT28_0" longname="" type="MERGED" />
+                <Entity id="6" name="MERGED_2_LIBENT2_0" longname="" type="MERGED" />
+                <Entity id="30" name="MERGED_2_LIBENT32_0" longname="" type="MERGED" />
+                <Entity id="8" name="MERGED_2_LIBENT3_0" longname="" type="MERGED" />
+                <Entity id="103" name="MERGED_2_LIBENT40_0" longname="" type="MERGED" />
+                <Entity id="128" name="MERGED_2_LIBENT43_0" longname="" type="MERGED" />
+                <Entity id="73" name="MERGED_2_LIBENT44_0" longname="" type="MERGED" />
+                <Entity id="61" name="MERGED_2_LIBENT50_0" longname="" type="MERGED" />
+                <Entity id="41" name="MERGED_2_LIBENT52_0" longname="" type="MERGED" />
+                <Entity id="132" name="MERGED_2_LIBENT55_0" longname="" type="MERGED" />
+                <Entity id="13" name="MERGED_2_LIBENT56_0" longname="" type="MERGED" />
+                <Entity id="49" name="MERGED_2_LIBENT65_0" longname="" type="MERGED" />
+                <Entity id="26" name="MERGED_2_LIBENT69_0" longname="" type="MERGED" />
+                <Entity id="133" name="MERGED_2_LIBENT6_0" longname="" type="MERGED" />
+                <Entity id="27" name="MERGED_2_LIBENT70_0" longname="" type="MERGED" />
+                <Entity id="127" name="MERGED_2_LIBENT71_0" longname="" type="MERGED" />
+                <Entity id="116" name="MERGED_2_LIBENT72_0" longname="" type="MERGED" />
+                <Entity id="129" name="MERGED_2_LIBENT73_0" longname="" type="MERGED" />
+                <Entity id="24" name="MERGED_2_LIBENT77_0" longname="" type="MERGED" />
+                <Entity id="25" name="MERGED_2_LIBENT79_0" longname="" type="MERGED" />
+                <Entity id="5" name="MERGED_2_LIBENT7_0" longname="" type="MERGED" />
+                <Entity id="47" name="MERGED_2_LIBENT80_0" longname="" type="MERGED" />
+                <Entity id="9" name="MERGED_2_LIBENT81_0" longname="" type="MERGED" />
+                <Entity id="92" name="MERGED_2_LIBENT82_0" longname="" type="MERGED" />
+                <Entity id="90" name="MERGED_2_LIBENT83_0" longname="" type="MERGED" />
+                <Entity id="40" name="MERGED_2_LIBENT84_0" longname="" type="MERGED" />
+                <Entity id="63" name="MERGED_2_LIBENT85_0" longname="" type="MERGED" />
+                <Entity id="99" name="MERGED_2_LIBENT86_0" longname="" type="MERGED" />
+                <Entity id="77" name="MERGED_2_LIBENT87_0" longname="" type="MERGED" />
+                <Entity id="78" name="MERGED_2_LIBENT88_0" longname="" type="MERGED" />
+                <Entity id="110" name="MERGED_2_LIBENT8_0" longname="" type="MERGED" />
+                <Entity id="88" name="MERGED_2_LIBENT90_0" longname="" type="MERGED" />
+                <Entity id="66" name="MERGED_2_LIBENT91_0" longname="" type="MERGED" />
+                <Entity id="108" name="MERGED_2_LIBENT92_0" longname="" type="MERGED" />
+                <Entity id="106" name="MERGED_2_LIBENT93_0" longname="" type="MERGED" />
+                <Entity id="54" name="MERGED_2_LIBENT94_0" longname="" type="MERGED" />
+                <Entity id="69" name="MERGED_2_LIBENT95_0" longname="" type="MERGED" />
+                <Entity id="109" name="MERGED_2_LIBENT97_0" longname="" type="MERGED" />
+                <Entity id="124" name="MERGED_2_LIBENT99_0" longname="" type="MERGED" />
+                <Entity id="39" name="MERGED_2_LIBENT9_0" longname="" type="MERGED" />
+                <Entity id="138" name="MERGED_2_Relief01/Relief01_0" longname="" type="MERGED" />
+                <Entity id="157" name="MERGED_2_Smart_Station_ATM/13-Default_0" longname="" type="MERGED" />
+                <Entity id="141" name="MERGED_2_Smart_Station_Card_Charger_01/10-Default_0" longname="" type="MERGED" />
+                <Entity id="156" name="MERGED_2_Smart_Station_Card_Charger_02/11-Default_0" longname="" type="MERGED" />
+                <Entity id="155" name="MERGED_2_Smart_Station_Card_Reload_01/09-Default_0" longname="" type="MERGED" />
+                <Entity id="142" name="MERGED_2_Smart_Station_Emergency_Light/16-Default_0" longname="" type="MERGED" />
+                <Entity id="150" name="MERGED_2_Smart_Station_Guide_Monitor/guide_0" longname="" type="MERGED" />
+                <Entity id="159" name="MERGED_2_Smart_Station_IDPhoto/19-Default_0" longname="" type="MERGED" />
+                <Entity id="136" name="MERGED_2_Smart_Station_Locker_01/Smart_Station_Locker_01_0" longname="" type="MERGED" />
+                <Entity id="140" name="MERGED_2_Smart_Station_Locker_02/Smart_Station_Locker_01_0" longname="" type="MERGED" />
+                <Entity id="139" name="MERGED_2_Smart_Station_Locker_02/Smart_Station_Locker_02_0" longname="" type="MERGED" />
+                <Entity id="160" name="MERGED_2_Smart_Station_Machine_01/Smart_Station_Machine_01_t_0" longname="" type="MERGED" />
+                <Entity id="149" name="MERGED_2_Smart_Station_Refund_01/12-Default_0" longname="" type="MERGED" />
+                <Entity id="145" name="MERGED_2_Smart_Station_S_Map/smap_0" longname="" type="MERGED" />
+                <Entity id="144" name="MERGED_2_Smart_Station_Ticket_01/01-Default_0" longname="" type="MERGED" />
+                <Entity id="137" name="MERGED_2_Smart_Station_Ticket_01_2/01-Default_0" longname="" type="MERGED" />
+                <Entity id="147" name="MERGED_2_Smart_Station_Ticket_02/02-Default_0" longname="" type="MERGED" />
+                <Entity id="148" name="MERGED_2_Smart_Station_Ticket_02/03-Default_0" longname="" type="MERGED" />
+                <Entity id="151" name="MERGED_2_Smart_Station_Vending_03/17-Default_0" longname="" type="MERGED" />
+                <Entity id="153" name="MERGED_2_Smart_Station_Vending_04/23-Default_0" longname="" type="MERGED" />
+                <Entity id="154" name="MERGED_2_VendM/VendM_0" longname="" type="MERGED" />
+            </Entity>
+            <Entity id="3" name="출구_계단" type="Floor" longname="639019484">
+                <Entity id="41" name="MERGED_3_BlockY/BlockY_0" longname="" type="MERGED" />
+                <Entity id="45" name="MERGED_3_Esca_M02/01-Default_0" longname="" type="MERGED" />
+                <Entity id="42" name="MERGED_3_Esca_W02/01-Default_0" longname="" type="MERGED" />
+                <Entity id="43" name="MERGED_3_Esca_W02/Material#30654_0" longname="" type="MERGED" />
+                <Entity id="17" name="MERGED_3_LIBENT0_0" longname="" type="MERGED" />
+                <Entity id="31" name="MERGED_3_LIBENT117_0" longname="" type="MERGED" />
+                <Entity id="19" name="MERGED_3_LIBENT118_0" longname="" type="MERGED" />
+                <Entity id="33" name="MERGED_3_LIBENT119_0" longname="" type="MERGED" />
+                <Entity id="35" name="MERGED_3_LIBENT120_0" longname="" type="MERGED" />
+                <Entity id="34" name="MERGED_3_LIBENT121_0" longname="" type="MERGED" />
+                <Entity id="25" name="MERGED_3_LIBENT157_0" longname="" type="MERGED" />
+                <Entity id="10" name="MERGED_3_LIBENT15_0" longname="" type="MERGED" />
+                <Entity id="14" name="MERGED_3_LIBENT160_0" longname="" type="MERGED" />
+                <Entity id="12" name="MERGED_3_LIBENT161_0" longname="" type="MERGED" />
+                <Entity id="16" name="MERGED_3_LIBENT162_0" longname="" type="MERGED" />
+                <Entity id="23" name="MERGED_3_LIBENT183_0" longname="" type="MERGED" />
+                <Entity id="22" name="MERGED_3_LIBENT184_0" longname="" type="MERGED" />
+                <Entity id="9" name="MERGED_3_LIBENT1_0" longname="" type="MERGED" />
+                <Entity id="26" name="MERGED_3_LIBENT202_0" longname="" type="MERGED" />
+                <Entity id="39" name="MERGED_3_LIBENT216_0" longname="" type="MERGED" />
+                <Entity id="40" name="MERGED_3_LIBENT217_0" longname="" type="MERGED" />
+                <Entity id="38" name="MERGED_3_LIBENT218_0" longname="" type="MERGED" />
+                <Entity id="7" name="MERGED_3_LIBENT21_0" longname="" type="MERGED" />
+                <Entity id="18" name="MERGED_3_LIBENT23_0" longname="" type="MERGED" />
+                <Entity id="11" name="MERGED_3_LIBENT24_0" longname="" type="MERGED" />
+                <Entity id="6" name="MERGED_3_LIBENT2_0" longname="" type="MERGED" />
+                <Entity id="13" name="MERGED_3_LIBENT36_0" longname="" type="MERGED" />
+                <Entity id="15" name="MERGED_3_LIBENT37_0" longname="" type="MERGED" />
+                <Entity id="8" name="MERGED_3_LIBENT3_0" longname="" type="MERGED" />
+                <Entity id="37" name="MERGED_3_LIBENT50_0" longname="" type="MERGED" />
+                <Entity id="36" name="MERGED_3_LIBENT52_0" longname="" type="MERGED" />
+                <Entity id="27" name="MERGED_3_LIBENT53_0" longname="" type="MERGED" />
+                <Entity id="29" name="MERGED_3_LIBENT54_0" longname="" type="MERGED" />
+                <Entity id="20" name="MERGED_3_LIBENT55_0" longname="" type="MERGED" />
+                <Entity id="21" name="MERGED_3_LIBENT65_0" longname="" type="MERGED" />
+                <Entity id="5" name="MERGED_3_LIBENT7_0" longname="" type="MERGED" />
+                <Entity id="32" name="MERGED_3_LIBENT85_0" longname="" type="MERGED" />
+                <Entity id="28" name="MERGED_3_LIBENT87_0" longname="" type="MERGED" />
+                <Entity id="30" name="MERGED_3_LIBENT88_0" longname="" type="MERGED" />
+                <Entity id="24" name="MERGED_3_LIBENT89_0" longname="" type="MERGED" />
+                <Entity id="44" name="MERGED_3_Smart_Station_Guide_Monitor/guide_0" longname="" type="MERGED" />
+            </Entity>
+            <Entity id="4" name="출구" type="Floor" longname="944532350">
+                <Entity id="15" name="MERGED_4_LIBENT0_0" longname="" type="MERGED" />
+                <Entity id="14" name="MERGED_4_LIBENT10_0" longname="" type="MERGED" />
+                <Entity id="44" name="MERGED_4_LIBENT115_0" longname="" type="MERGED" />
+                <Entity id="22" name="MERGED_4_LIBENT118_0" longname="" type="MERGED" />
+                <Entity id="27" name="MERGED_4_LIBENT119_0" longname="" type="MERGED" />
+                <Entity id="40" name="MERGED_4_LIBENT120_0" longname="" type="MERGED" />
+                <Entity id="26" name="MERGED_4_LIBENT121_0" longname="" type="MERGED" />
+                <Entity id="43" name="MERGED_4_LIBENT134_0" longname="" type="MERGED" />
+                <Entity id="23" name="MERGED_4_LIBENT169_0" longname="" type="MERGED" />
+                <Entity id="45" name="MERGED_4_LIBENT172_0" longname="" type="MERGED" />
+                <Entity id="30" name="MERGED_4_LIBENT173_0" longname="" type="MERGED" />
+                <Entity id="42" name="MERGED_4_LIBENT174_0" longname="" type="MERGED" />
+                <Entity id="19" name="MERGED_4_LIBENT175_0" longname="" type="MERGED" />
+                <Entity id="41" name="MERGED_4_LIBENT176_0" longname="" type="MERGED" />
+                <Entity id="28" name="MERGED_4_LIBENT177_0" longname="" type="MERGED" />
+                <Entity id="25" name="MERGED_4_LIBENT178_0" longname="" type="MERGED" />
+                <Entity id="39" name="MERGED_4_LIBENT179_0" longname="" type="MERGED" />
+                <Entity id="11" name="MERGED_4_LIBENT180_0" longname="" type="MERGED" />
+                <Entity id="31" name="MERGED_4_LIBENT185_0" longname="" type="MERGED" />
+                <Entity id="21" name="MERGED_4_LIBENT195_0" longname="" type="MERGED" />
+                <Entity id="5" name="MERGED_4_LIBENT1_0" longname="" type="MERGED" />
+                <Entity id="36" name="MERGED_4_LIBENT255_0" longname="" type="MERGED" />
+                <Entity id="20" name="MERGED_4_LIBENT256_0" longname="" type="MERGED" />
+                <Entity id="35" name="MERGED_4_LIBENT257_0" longname="" type="MERGED" />
+                <Entity id="29" name="MERGED_4_LIBENT258_0" longname="" type="MERGED" />
+                <Entity id="8" name="MERGED_4_LIBENT2_0" longname="" type="MERGED" />
+                <Entity id="9" name="MERGED_4_LIBENT3_0" longname="" type="MERGED" />
+                <Entity id="18" name="MERGED_4_LIBENT55_0" longname="" type="MERGED" />
+                <Entity id="38" name="MERGED_4_LIBENT57_0" longname="" type="MERGED" />
+                <Entity id="17" name="MERGED_4_LIBENT58_0" longname="" type="MERGED" />
+                <Entity id="6" name="MERGED_4_LIBENT59_0" longname="" type="MERGED" />
+                <Entity id="16" name="MERGED_4_LIBENT60_0" longname="" type="MERGED" />
+                <Entity id="34" name="MERGED_4_LIBENT61_0" longname="" type="MERGED" />
+                <Entity id="24" name="MERGED_4_LIBENT62_0" longname="" type="MERGED" />
+                <Entity id="7" name="MERGED_4_LIBENT63_0" longname="" type="MERGED" />
+                <Entity id="12" name="MERGED_4_LIBENT64_0" longname="" type="MERGED" />
+                <Entity id="13" name="MERGED_4_LIBENT65_0" longname="" type="MERGED" />
+                <Entity id="32" name="MERGED_4_LIBENT66_0" longname="" type="MERGED" />
+                <Entity id="33" name="MERGED_4_LIBENT67_0" longname="" type="MERGED" />
+                <Entity id="37" name="MERGED_4_LIBENT68_0" longname="" type="MERGED" />
+                <Entity id="46" name="MERGED_4_LIBENT6_0" longname="" type="MERGED" />
+                <Entity id="10" name="MERGED_4_LIBENT7_0" longname="" type="MERGED" />
+            </Entity>
+        </ObjectHierarchy>
+    </Building>
+</Project>

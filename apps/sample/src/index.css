@@ -1,0 +1,41 @@
+@import "tailwindcss";
+@import "../../../packages/ui/src/index.css";
+@source "../../../packages/ui";
+
+@theme {
+  /* Primary Palette - 보라(Violet) 계열 */
+  --color-primary-100: #f5f3ff;
+  --color-primary-200: #ede9fe;
+  --color-primary-300: #ddd6fe;
+  --color-primary-400: #c4b5fd;
+  --color-primary-500: #a78bfa;
+  --color-primary-600: #8b5cf6;
+  --color-primary-700: #7c3aed;
+  --color-primary-800: #6d28d9;
+  --color-primary-900: #5b21b6;
+  --color-primary-foreground: #ffffff;
+
+  /* Secondary Palette - 청록(Turquoise/Cyan) 계열 */
+  --color-secondary-100: #cffafe;
+  --color-secondary-200: #a5f3fc;
+  --color-secondary-300: #67e8f9;
+  --color-secondary-400: #22d3ee;
+  --color-secondary-500: #06b6d4;
+  --color-secondary-600: #0891b2;
+  --color-secondary-700: #0e7490;
+  --color-secondary-800: #155e75;
+  --color-secondary-900: #164e63;
+  --color-secondary-foreground: #000000;
+
+  /* Destructive Palette - 코랄(Coral/Orange) 계열 */
+  --color-destructive-100: #fff7ed;
+  --color-destructive-200: #ffedd5;
+  --color-destructive-300: #fed7aa;
+  --color-destructive-400: #fdba74;
+  --color-destructive-500: #fb923c;
+  --color-destructive-600: #f97316;
+  --color-destructive-700: #ea580c;
+  --color-destructive-800: #c2410c;
+  --color-destructive-900: #9a3412;
+  --color-destructive-foreground: #ffffff;
+}

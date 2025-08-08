@@ -1,0 +1,14 @@
+{
+  "extends": "./tsconfig.base.json", 
+  "compilerOptions": {
+  },
+  "files": [], // 루트 프로젝트 자체는 컴파일할 파일이 없음
+  "include": [], // files와 유사하게 비워둠
+  "references": [ // 모노레포 내의 모든 패키지 및 앱을 참조로 추가
+    { "path": "./packages/ui" },
+    { "path": "./packages/engine" },
+    { "path": "./packages/api-hooks" },
+    { "path": "./packages/common-services" },
+    { "path": "./apps/v1" }
+  ]
+}

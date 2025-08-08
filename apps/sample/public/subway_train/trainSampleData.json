@@ -1,0 +1,18 @@
+[
+    {
+        "id": "1c233aed-f849-4797-b5e1-03a373cc51e6",
+        "pathId": "6475e459-dfd9-45fc-9456-ab286aebfbcb",
+        "bodyCount": 10,
+        "entranceUValue": 0.1768084745639975,
+        "stopUValue": 0.5085977679217629,
+        "exitUValue": 0.790831413537607
+    },
+    {
+        "id": "b83eacbc-feea-47f7-bed3-68f01f8cbdec",
+        "pathId": "fd0427d6-2547-4356-8fb7-273f6aff981e",
+        "bodyCount": 5,
+        "entranceUValue": 0.1718974378922774,
+        "stopUValue": 0.39902296186634184,
+        "exitUValue": 0.5563033962170726
+    }
+]

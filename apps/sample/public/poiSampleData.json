@@ -1,0 +1,377 @@
+[
+    {
+        "id": "0",
+        "iconUrl": "",
+        "modelUrl": "monkeyhead.glb",
+        "displayText": "테스트",
+        "floorId": "0",
+        "property": {
+            "code": ""
+        },
+        "position": {
+            "x": 23.21199645825625,
+            "y": -22.09000015258789,
+            "z": -17.388035008406575
+        },
+        "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+        }
+    },
+    {
+        "id": "1",
+        "iconUrl": "",
+        "modelUrl": "monkeyhead.glb",
+        "displayText": "테스트",
+        "floorId": "0",
+        "property": {
+            "code": ""
+        },
+        "position": {
+            "x": 29.986910463638367,
+            "y": -22.09000015258789,
+            "z": -16.352419125385314
+        },
+        "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+        }
+    },
+    {
+        "id": "2",
+        "iconUrl": "",
+        "modelUrl": "monkeyhead.glb",
+        "displayText": "테스트",
+        "floorId": "0",
+        "property": {
+            "code": ""
+        },
+        "position": {
+            "x": 26.22677555845108,
+            "y": -22.09000015258789,
+            "z": -15.715936937513948
+        },
+        "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+        }
+    },
+    {
+        "id": "3",
+        "iconUrl": "",
+        "modelUrl": "monkeyhead.glb",
+        "displayText": "테스트",
+        "floorId": "0",
+        "property": {
+            "code": ""
+        },
+        "position": {
+            "x": 34.3362501022759,
+            "y": -22.09000015258789,
+            "z": -16.86207701996457
+        },
+        "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+        }
+    },
+    {
+        "id": "4",
+        "iconUrl": "",
+        "modelUrl": "monkeyhead.glb",
+        "displayText": "테스트",
+        "floorId": "1",
+        "property": {
+            "code": ""
+        },
+        "position": {
+            "x": 110.65126130889549,
+            "y": -18.09000015258789,
+            "z": -19.507101840210666
+        },
+        "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+        }
+    },
+    {
+        "id": "5",
+        "iconUrl": "",
+        "modelUrl": "monkeyhead.glb",
+        "displayText": "테스트",
+        "floorId": "1",
+        "property": {
+            "code": ""
+        },
+        "position": {
+            "x": 144.45617466430525,
+            "y": -14.89000129699707,
+            "z": -19.099669510901677
+        },
+        "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+        }
+    },
+    {
+        "id": "6",
+        "iconUrl": "",
+        "modelUrl": "monkeyhead.glb",
+        "displayText": "테스트",
+        "floorId": "2",
+        "property": {
+            "code": ""
+        },
+        "position": {
+            "x": 130.65612304537183,
+            "y": -8.389999389648438,
+            "z": -19.06777188466323
+        },
+        "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+        }
+    },
+    {
+        "id": "7",
+        "iconUrl": "",
+        "modelUrl": "monkeyhead.glb",
+        "displayText": "테스트",
+        "floorId": "2",
+        "property": {
+            "code": ""
+        },
+        "position": {
+            "x": 130.14887278126886,
+            "y": -8.389999389648438,
+            "z": -17.43530914737883
+        },
+        "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+        }
+    },
+    {
+        "id": "8",
+        "iconUrl": "",
+        "modelUrl": "monkeyhead.glb",
+        "displayText": "테스트",
+        "floorId": "0",
+        "property": {
+            "code": ""
+        },
+        "position": {
+            "x": 35.16754316943609,
+            "y": -22.09000015258789,
+            "z": -15.3348384121488
+        },
+        "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+        }
+    },
+    {
+        "id": "9",
+        "iconUrl": "",
+        "modelUrl": "monkeyhead.glb",
+        "displayText": "테스트",
+        "floorId": "0",
+        "property": {
+            "code": ""
+        },
+        "position": {
+            "x": 27.82215179190071,
+            "y": -22.09000015258789,
+            "z": -16.035682167911027
+        },
+        "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+        }
+    },
+    {
+        "id": "10",
+        "iconUrl": "",
+        "modelUrl": "monkeyhead.glb",
+        "displayText": "테스트",
+        "floorId": "2",
+        "property": {
+            "code": ""
+        },
+        "position": {
+            "x": 126.38249747731955,
+            "y": -8.389999389648438,
+            "z": -16.676356881603795
+        },
+        "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+        }
+    },
+    {
+        "id": "11",
+        "iconUrl": "",
+        "modelUrl": "monkeyhead.glb",
+        "displayText": "테스트",
+        "floorId": "2",
+        "property": {
+            "code": ""
+        },
+        "position": {
+            "x": 139.77347558541982,
+            "y": -8.389999389648438,
+            "z": -16.36226081832556
+        },
+        "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+        }
+    },
+    {
+        "id": "12",
+        "iconUrl": "",
+        "modelUrl": "monkeyhead.glb",
+        "displayText": "테스트",
+        "floorId": "2",
+        "property": {
+            "code": ""
+        },
+        "position": {
+            "x": 75.40088342290247,
+            "y": -11.59000015258789,
+            "z": -18.20129063135486
+        },
+        "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+        }
+    },
+    {
+        "id": "13",
+        "iconUrl": "",
+        "modelUrl": "monkeyhead.glb",
+        "displayText": "테스트",
+        "floorId": "1",
+        "property": {
+            "code": ""
+        },
+        "position": {
+            "x": 60.01943707067808,
+            "y": -18.09000015258789,
+            "z": -22.39654441976389
+        },
+        "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+        }
+    },
+    {
+        "id": "14",
+        "iconUrl": "",
+        "modelUrl": "monkeyhead.glb",
+        "displayText": "테스트",
+        "floorId": "1",
+        "property": {
+            "code": ""
+        },
+        "position": {
+            "x": 61.32168214762251,
+            "y": -18.09000015258789,
+            "z": -22.174928722368108
+        },
+        "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+        }
+    }
+]

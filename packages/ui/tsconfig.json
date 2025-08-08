@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "outDir": "dist",
+        "module": "ESNext",
+        "target": "ESNext", // Nadk 변경 : 최신 ECMAScript 기능 사용
+        "moduleResolution": "bundler",
+        "declaration": true,
+        "sourceMap": true,
+        "strict": true,
+        "esModuleInterop": true,
+        "composite": true,             // Nadk 변경 : 이 프로젝트를 composite project로 설정
+        "declarationMap": true,        // Nadk 변경 : 선언 파일에 대한 소스맵 생성 (권장)
+        "jsx": "react-jsx"
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist",
+        "src/**/*.stories.tsx", 
+        "src/**/*.stories.ts",  
+    ]
+}
