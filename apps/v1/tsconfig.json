@@ -1,0 +1,39 @@
+{
+  "extends": "../../tsconfig.base.json", 
+  "compilerOptions": {
+    // tsconfig.base.json의 주요 옵션들을 여기에 직접 복사합니다.
+    // 단, "paths" 에서 "@plug/ui" 관련 설정을 제외하거나,
+    // "paths" 자체를 여기서는 정의하지 않습니다.
+    "target": "ESNext",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "forceConsistentCasingInFileNames": true,
+    "sourceMap": true, // base에서 가져옴
+
+    // apps/v1 고유 설정
+    "composite": true,
+    "rootDir": "src",
+    "jsx": "preserve", // 또는 "react-jsx"
+    "noEmit": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist", ".next", "build"], // 빌드 툴 아티팩트 폴더 추가
+  "references": [
+    { "path": "../../packages/ui" },
+    { "path": "../../packages/engine" },
+    { "path": "../../packages/api-hooks" },
+    { "path": "../../packages/common-services" }
+  ]
+}

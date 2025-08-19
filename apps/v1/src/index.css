@@ -1,0 +1,54 @@
+@import 'tailwindcss';
+@import "../../../packages/ui/src/index.css";
+@source "../../../packages/ui";
+
+@theme {
+    --color-primary-100: #e6f0f9;
+    --color-primary-200: #c6daf2;
+    --color-primary-300: #9abfe7;
+    --color-primary-400: #6ea4db;
+    --color-primary-500: #3d88cf;
+    --color-primary-600: #1a6fbe;
+    --color-primary-700: #065bad;
+    --color-primary-800: #00539f;
+    --color-primary-900: #004c97;
+    --color-primary-foreground: #ffffff;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+    width: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: rgba(2, 32, 60, 0.2);
+    border-radius: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background: rgba(181, 198, 234, 0.6);
+    border-radius: 10px;
+    border: 2px solid transparent;
+    background-clip: content-box;
+    transition: background-color 0.2s ease;
+}
+
+.custom-admin-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: rgba(106, 117, 150, 0.6);
+}
+
+.custom-admin-scrollbar::-webkit-scrollbar {
+    width: 10px;
+}
+
+.custom-admin-scrollbar::-webkit-scrollbar-track {
+    background: rgba(242, 242, 242, 0.2);
+    border-radius: 6px;
+}
+
+.custom-admin-scrollbar::-webkit-scrollbar-thumb {
+    background: rgba(128, 128, 128, 0.4);
+    border-radius: 10px;
+    border: 2px solid transparent;
+    background-clip: content-box;
+    transition: background-color 0.2s ease;
+}

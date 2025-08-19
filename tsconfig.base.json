@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "module": "esnext", // 각 프로젝트에서 필요에 따라 "commonjs" 등으로 변경 가능
+    "incremental": true, // 증분 빌드 활성화
+    "sourceMap": true,
+
+    /* Bundler mode */
+    "moduleResolution": "bundler", // 또는 "nodenext", "node16"
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "isolatedModules": true, // 각 파일이 독립적인 모듈로 처리되도록 보장 (Vite, esbuild 등과 잘 작동)
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "forceConsistentCasingInFileNames": true,
+
+    /* Alias - IDE 및 일부 번들러를 위해 src를 가리키도록 설정 */
+    /* 빌드 시에는 프로젝트 레퍼런스를 통해 dist 폴더의 결과물을 사용합니다. */
+    "baseUrl": ".",
+    "paths": {
+      "@plug/ui": ["packages/ui/src"],
+      "@plug/engine": ["packages/engine/src"],
+      "@plug/api-hooks": ["packages/api-hooks/src"],
+      "@plug/common-services": ["packages/common-services/src"],
+      "@plug/v1/*": ["apps/v1/src/*"]
+    }
+  }
+}
