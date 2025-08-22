@@ -226,7 +226,7 @@ const SideMenu: React.FC = () => {
 
   return (
     <>
-      <div className="fixed left-0 top-16 bottom-0 w-16 bg-gradient-to-b from-primary-900/30 to-primary-900/20 backdrop-blur-md flex flex-col items-center pt-4 px-2 z-30 shadow-xl border-r border-primary-100/5">
+      <div className="fixed flex left-0 top-16 bottom-0 w-16 bg-gradient-to-b from-primary-900/30 to-primary-900/20 backdrop-blur-md flex flex-col items-center pt-4 px-2 z-30 shadow-xl border-r border-primary-100/5">
         <div className="flex-1 space-y-3 custom-scrollbar">
           {menuItems
             .sort((a, b) => a.name.localeCompare(b.name))

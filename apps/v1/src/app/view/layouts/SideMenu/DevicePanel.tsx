@@ -192,7 +192,7 @@ const DevicePanel: React.FC<DevicePanelProps> = ({
   };
 
   const renderNormalDeviceList = (devices: DeviceData[]) => (
-    <ul className="space-y-2 overflow-y-auto pr-1 h-[85%] custom-scrollbar">
+    <ul className="space-y-2 overflow-y-auto pr-1 h-full custom-scrollbar">
       {devices
         .sort((a, b) => a.name.localeCompare(b.name))
         .map((device) => (
