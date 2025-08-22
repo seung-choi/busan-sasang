@@ -1,0 +1,3682 @@
+[
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "1_SM_LIGHT_BJ_DOWN",
+    "lightName": "본선조명 하선범내골방향",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 77
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "1_SM_LIGHT_BJ_UP",
+    "lightName": "본선조명 상선부전방향",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 75
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "1_SM_LIGHT_BNG_DOWN",
+    "lightName": "본선조명 하선부전방향",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 76
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "1_SM_LIGHT_BNG_UP",
+    "lightName": "본선조명 상선범내골방향",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 74
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "1_SM_LIGHT_EMER1",
+    "lightName": "터널비상조명1 범내골방향",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 72
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "1_SM_LIGHT_EMER2",
+    "lightName": "터널비상조명2 부전방향",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 73
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "1_SM_LIGHT_L1A_LA1",
+    "lightName": "서면몰방면 (L1A-LA1)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 1
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "1_SM_LIGHT_L1A_LA2",
+    "lightName": "G-30앞 (L1A-LA2)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 2
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "1_SM_LIGHT_L1A_LA3",
+    "lightName": "환승통로 전등 (L1A-LA3)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 5
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "1_SM_LIGHT_L1A_LA4",
+    "lightName": "환승통로 전등 (L1A-LA4)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 4
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "1_SM_LIGHT_L1A_LA5",
+    "lightName": "대합실 중앙조명 (L1A-LA5)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 6
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "1_SM_LIGHT_L1A_SP1",
+    "lightName": "SPARE (L1A-SP1)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 3
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "1_SM_LIGHT_L1A_SP2",
+    "lightName": "SPARE (L1A-SP2)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 7
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "1_SM_LIGHT_L1A_SP3",
+    "lightName": "SPARE (L1A-SP3)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 8
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "1_SM_LIGHT_L1B_LB1",
+    "lightName": "서면몰방면 (L1B-LB1)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 9
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "1_SM_LIGHT_L1B_LB2",
+    "lightName": "G-30앞 (L1B-LB2)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 10
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "1_SM_LIGHT_L1B_LB3",
+    "lightName": "ACM87앞 (L1B-LB3)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 11
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "1_SM_LIGHT_L1B_LB4",
+    "lightName": "환승통로 전등 (L1B-LB4)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 12
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "1_SM_LIGHT_L1B_LB5",
+    "lightName": "G-40앞 (L1B-LB5)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 13
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "1_SM_LIGHT_L1B_RB1",
+    "lightName": "3,4폴싸인전원 (L1B-RB1)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 14
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "1_SM_LIGHT_L2A_LA1",
+    "lightName": "침실(남)통로 (L2A-LA1)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 15
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "1_SM_LIGHT_L2A_LA10",
+    "lightName": "현금지급기 (L2A-LA10)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 21
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "1_SM_LIGHT_L2A_LA4",
+    "lightName": "캐노피 10번출구 (L2A-LA4)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 16
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "1_SM_LIGHT_L2A_LA5",
+    "lightName": "E/L3,4주변 (L2A-LA5)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 17
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "1_SM_LIGHT_L2A_LA6",
+    "lightName": "E/L1통로(역무실후문) (L2A-LA6)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 18
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "1_SM_LIGHT_L2A_LA8",
+    "lightName": "상가6호,보관함 (L2A-LA8)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 19
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "1_SM_LIGHT_L2A_LA9",
+    "lightName": "G-20,G-50앞 (L2A-LA9)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 20
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "1_SM_LIGHT_L2B_LB10",
+    "lightName": "2호선입구쪽 (L2B-LB10)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 23
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "1_SM_LIGHT_L2B_LB11",
+    "lightName": "상가앞전등 (L2B-LB11)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 24
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "1_SM_LIGHT_L2B_LB12",
+    "lightName": "E/L3,4주변 (L2B-LB12)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 25
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "1_SM_LIGHT_L2B_LB9",
+    "lightName": "캐노피10번출구 (L2B-LB9)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 22
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "1_SM_LIGHT_L3A_LA1",
+    "lightName": "캐노피전등 (L3A-LA1)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 26
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "1_SM_LIGHT_L3A_LA10",
+    "lightName": "12,15번출구전등 (L3A-LA10)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 32
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "1_SM_LIGHT_L3A_LA2",
+    "lightName": "환기실앞전등,벽면광고 (L3A-LA2)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 27
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "1_SM_LIGHT_L3A_LA3",
+    "lightName": "G-1앞 (L3A-LA3)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 28
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "1_SM_LIGHT_L3A_LA4",
+    "lightName": "전기실앞전등 (L3A-LA4)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 29
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "1_SM_LIGHT_L3A_LA5",
+    "lightName": "10,13번출구전등 (L3A-LA5)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 30
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "1_SM_LIGHT_L3A_LA6",
+    "lightName": "10,12,13,15폴싸인전원 (L3A-LA6)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 31
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "1_SM_LIGHT_L3B_LB1",
+    "lightName": "캐노피전등 (L3B-LB1)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 33
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "1_SM_LIGHT_L3B_LB2",
+    "lightName": "C.D환기실앞 (L3B-LB2)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 34
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "1_SM_LIGHT_L3B_LB3",
+    "lightName": "게이트앞전등 (L3B-LB3)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 35
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "1_SM_LIGHT_L3B_LB4",
+    "lightName": "전기실앞전등 (L3B-LB4)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 36
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "1_SM_LIGHT_L3B_LB5",
+    "lightName": "대합실사각기둥광고 (L3B-LB5)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 37
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "1_SM_LIGHT_L3B_LB6",
+    "lightName": "10,13번출구전등 (L3B-LB6)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 38
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "1_SM_LIGHT_L3B_LB8",
+    "lightName": "12,15번출구전등 (L3B-LB8)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 39
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "1_SM_LIGHT_L4_LA1",
+    "lightName": "남,벽쪽전등 (L4-LA1)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 40
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "1_SM_LIGHT_L4_LA2",
+    "lightName": "북,벽쪽전등 (L4-LA2)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 41
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "1_SM_LIGHT_L4_LA3",
+    "lightName": "기둥사이전등 (L4-LA3)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 42
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "1_SM_LIGHT_L4_LA4",
+    "lightName": "줄조명전등 (L4-LA4)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 43
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "1_SM_LIGHT_L4_LB1",
+    "lightName": "남,벽쪽전등 (L4-LB1)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 44
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "1_SM_LIGHT_L4_LB2",
+    "lightName": "북,벽쪽전등 (L4-LB2)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 45
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "1_SM_LIGHT_L4_LB3",
+    "lightName": "기둥사이전등 (L4-LB3)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 46
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "1_SM_LIGHT_L4_LB4",
+    "lightName": "줄조명전등 (L4-LB4)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 47
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "1_SM_LIGHT_L5_LA1",
+    "lightName": "북,벽쪽전등 (L5-LA1)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 48
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "1_SM_LIGHT_L5_LA2",
+    "lightName": "남,벽쪽전등 (L5-LA2)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 49
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "1_SM_LIGHT_L5_LA3",
+    "lightName": "기둥사이전등 (L5-LA3)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 50
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "1_SM_LIGHT_L5_LA4",
+    "lightName": "줄조명전등 (L5-LA4)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 51
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "1_SM_LIGHT_L5_LB1",
+    "lightName": "북,벽쪽전등 (L5-LB1)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 52
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "1_SM_LIGHT_L5_LB2",
+    "lightName": "남,벽쪽전등 (L5-LB2)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 53
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "1_SM_LIGHT_L5_LB3",
+    "lightName": "기둥사이전등 (L5-LB3)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 54
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "1_SM_LIGHT_L5_LB4",
+    "lightName": "줄조명전등 (L5-LB4)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 55
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "1_SM_LIGHT_L6_LA1",
+    "lightName": "남,벽쪽전등 (L6-LA1)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 56
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "1_SM_LIGHT_L6_LA2",
+    "lightName": "북,벽쪽전등 (L6-LA2)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 57
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "1_SM_LIGHT_L6_LA3",
+    "lightName": "기둥사이전등 (L6-LA3)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 58
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "1_SM_LIGHT_L6_LA4",
+    "lightName": "줄조명전등 (L6-LA4)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 59
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "1_SM_LIGHT_L6_LB1",
+    "lightName": "남,벽쪽전등 (L6-LB1)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 60
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "1_SM_LIGHT_L6_LB2",
+    "lightName": "북,벽쪽전등 (L6-LB2)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 61
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "1_SM_LIGHT_L6_LB3",
+    "lightName": "기둥사이전등 (L6-LB3)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 62
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "1_SM_LIGHT_L6_LB4",
+    "lightName": "줄조명전등 (L6-LB4)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 63
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "1_SM_LIGHT_L7_LA1",
+    "lightName": "북,벽쪽전등 (L7-LA1)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 64
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "1_SM_LIGHT_L7_LA2",
+    "lightName": "남,벽쪽전등 (L7-LA2)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 65
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "1_SM_LIGHT_L7_LA3",
+    "lightName": "기둥사이전등 (L7-LA3)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 66
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "1_SM_LIGHT_L7_LA4",
+    "lightName": "줄조명전등 (L7-LA4)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 67
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "1_SM_LIGHT_L7_LB1",
+    "lightName": "북,벽쪽전등 (L7-LB1)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 68
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "1_SM_LIGHT_L7_LB2",
+    "lightName": "남,벽쪽전등 (L7-LB2)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 69
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "1_SM_LIGHT_L7_LB3",
+    "lightName": "기둥사이전등 (L7-LB3)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 70
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "1_SM_LIGHT_L7_LB4",
+    "lightName": "줄조명전등 (L7-LB4)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 71
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_A1",
+    "lightName": "환승통로 조명 (A1)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 79
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_A2",
+    "lightName": "환승통로 조명 (A2)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 80
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_B1",
+    "lightName": "환승통로 조명 (B1)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 81
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_B2",
+    "lightName": "환승통로 조명 (B2)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 82
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_B3",
+    "lightName": "환승통로 조명 (B3)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 83
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L1_1_A2",
+    "lightName": "대합실 통로 (L1-1 A2)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 1
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L1_1_A3",
+    "lightName": "통로 계단1 (L1-1 A3)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 2
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L1_1_A5",
+    "lightName": "채광 (L1-1 A5)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 3
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L1_1_A6",
+    "lightName": "대합실 통로 (L1-1 A6)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 4
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L1_1_A7",
+    "lightName": "통로 계단2 (L1-1 A7)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 5
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L1_1_A8",
+    "lightName": "C 회로 (L1-1 A8)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 6
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L1_1_B2",
+    "lightName": "대합실 (L1-1 B2)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 7
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L1_1_B3",
+    "lightName": "통로 계단1 (L1-1 B3)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 8
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L1_1_B5",
+    "lightName": "채광 (L1-1 B5)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 9
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L1_1_B6",
+    "lightName": "대합실 통로 (L1-1 B6)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 10
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L1_1_B7",
+    "lightName": "통로 계단2 (L1-1 B7)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 11
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L1_2_A1",
+    "lightName": "대합실 통로 (L1-2 A1)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 12
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L1_2_A5",
+    "lightName": "대합실 통로 (L1-2 A5)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 13
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L1_2_A6",
+    "lightName": "C 회로 (L1-2 A6)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 14
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L1_2_A7",
+    "lightName": "대합실 통로 (L1-2 A7)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 15
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L1_2_A8",
+    "lightName": "대합실 통로 (L1-2 A8)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 16
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L1_2_B1",
+    "lightName": "대합실 통로 (L1-2 B1)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 17
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L1_2_B5",
+    "lightName": "대합실 통로 (L1-2 B5)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 18
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L1_2_B7",
+    "lightName": "대합실 통로 (L1-2 B7)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 19
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L1_2_B8",
+    "lightName": "대합실 통로 (L1-2 B8)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 20
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L1_3_A1",
+    "lightName": "대합실 통로 (L1-3 A1)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 21
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L1_3_A2",
+    "lightName": "대합실 통로 (L1-3 A2)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 22
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L1_3_A3",
+    "lightName": "대합실 통로 (L1-3 A3)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 23
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L1_3_A7",
+    "lightName": "채광 조명 (L1-3 A7)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 24
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L1_3_B1",
+    "lightName": "대합실 통로 (L1-3 B1)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 25
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L1_3_B2",
+    "lightName": "대합실 통로 (L1-3 B2)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 26
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L1_3_B3",
+    "lightName": "통로 계단 (L1-3 B3)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 27
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L1_3_B4",
+    "lightName": "대합실 통로 (L1-3 B4)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 28
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L1_3_B6",
+    "lightName": "8번 출구 계단 (L1-3 B6)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 29
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L2_1_A2",
+    "lightName": "기능실 층 (L2-1 A2)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 30
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L2_1_A4",
+    "lightName": "C 회로 (L2-1 A4)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 31
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L2_1_B2",
+    "lightName": "기능실 층 (L2-1 B2)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 32
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L2_2_A1",
+    "lightName": "통로 계단 (L2-2 A1)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 33
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L2_2_A2",
+    "lightName": "기능실 통로 (L2-2 A2)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 34
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L2_2_A4",
+    "lightName": "C 회로 (L2-2 A4)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 35
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L2_2_B1",
+    "lightName": "통로 계단 (L2-2 B1)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 36
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L2_2_B2",
+    "lightName": "기능실 통로 (L2-2 B2)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 37
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L2_2_B6",
+    "lightName": "벽화 (L2-2 B6)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 38
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L2_3_A1",
+    "lightName": "기능실 통로 (L2-3 A1)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 39
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L2_3_A2",
+    "lightName": "기능실 통로 (L2-3 A2)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 40
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L2_3_A3",
+    "lightName": "기능실 환승통로 (L2-3 A3)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 41
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L2_3_B1",
+    "lightName": "기능실 통로 (L2-3 B1)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 42
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L2_3_B2",
+    "lightName": "기능실 통로 (L2-3 B2)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 43
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L2_3_B3",
+    "lightName": "기능실 환승통로 (L2-3 B3)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 44
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L2_3_B6",
+    "lightName": "C 회로 (L2-3 B6)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 45
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L3_1_A1",
+    "lightName": "승강장 조명 (L3-1 A1)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 46
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L3_1_A2",
+    "lightName": "승강장 조명 (L3-1 A2)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 47
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L3_1_A3",
+    "lightName": "승강장 조명 (L3-1 A3)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 48
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L3_1_A4",
+    "lightName": "승강장 줄조명 (L3-1 A4)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 49
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L3_1_A5",
+    "lightName": "승강장 줄조명 (L3-1 A5)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 50
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L3_1_A7",
+    "lightName": "승강장 하선 줄조명 (L3-1 A7)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 51
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L3_1_A8",
+    "lightName": "승강장 상선 줄조명 (L3-1 A8)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 52
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L3_1_B1",
+    "lightName": "승강장 조명 (L3-1 B1)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 53
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L3_1_B2",
+    "lightName": "승강장 조명 (L3-1 B2)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 54
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L3_1_B3",
+    "lightName": "승강장 줄조명 (L3-1 B3)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 55
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L3_1_B4",
+    "lightName": "승강장 줄조명 (L3-1 B4)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 56
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L3_1_B5",
+    "lightName": "승강장 줄조명 (L3-1 B5)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 57
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L3_1_B7",
+    "lightName": "C 회로 (L3-1 B7)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 58
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L3_1_B8",
+    "lightName": "승강장 줄조명 (L3-1 B8)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 59
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L3_1_B9",
+    "lightName": "승강장 줄조명 (L3-1 B9)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 60
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L3_2_A1",
+    "lightName": "승강장 조명 (L3-2 A1)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 61
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L3_2_A2",
+    "lightName": "승강장 조명 (L3-2 A2)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 62
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L3_2_A3",
+    "lightName": "승강장 줄조명 (L3-2 A3)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 63
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L3_2_A5",
+    "lightName": "승강장 줄조명 (L3-2 A5)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 64
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L3_2_B1",
+    "lightName": "승강장 조명 (L3-2 B1)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 65
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L3_2_B2",
+    "lightName": "승강장 조명 (L3-2 B2)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 66
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L3_2_B3",
+    "lightName": "승강장 줄조명 (L3-2 B3)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 67
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L3_2_B5",
+    "lightName": "승강장 줄조명 (L3-2 B5)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 68
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L3_2_B6",
+    "lightName": "C 회로 (L3-2 B6)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 69
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L3_3_A1",
+    "lightName": "승강장 조명 (L3-3 A1)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 70
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L3_3_A2",
+    "lightName": "승강장 조명 (L3-3 A2)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 71
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L3_3_A3",
+    "lightName": "승강장 조명 (L3-3 A3)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 72
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L3_3_A5",
+    "lightName": "승강장 줄조명 (L3-3 A5)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 73
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L3_3_B1",
+    "lightName": "승강장 조명 (L3-3 B1)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 74
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L3_3_B2",
+    "lightName": "승강장 조명 (L3-3 B2)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 75
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L3_3_B3",
+    "lightName": "C 회로 (L3-3 B3)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 76
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L3_3_B5",
+    "lightName": "승강장 줄조명 (L3-3 B5)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 77
+  },
+  {
+    "stationId": "1_STATION_SM",
+    "stationName": "서면역",
+    "lightId": "2_SM_LIGHT_L3_3_B6",
+    "lightName": "승강장 줄조명 (L3-3 B6)",
+    "fcltsType": "05",
+    "status": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "controlPosition": {
+      "ioId": "",
+      "ioValue": "0",
+      "error": false
+    },
+    "location": {
+      "xValue": 0.0,
+      "yValue": 0.0
+    },
+    "collectedTime": null,
+    "orderingSequence": 78
+  }
+]

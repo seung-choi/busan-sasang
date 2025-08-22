@@ -11,7 +11,13 @@ const MapViewer = ({ modelPath, floors = [], onModelLoaded, onLoadError }: MapVi
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const engineRef = useRef<any>(null);
     const isModelLoadedRef = useRef<boolean>(false);
-    
+
+    // const clicktest = () => {
+    //   // let state = {x, 10}
+    //
+    //   console.log(Px.Camera.GetState())
+    // }
+
     useEffect(() => {
         if (containerRef.current && !engineRef.current) {
             engineRef.current = new Px.Engine3D(containerRef.current);
@@ -49,6 +55,18 @@ const MapViewer = ({ modelPath, floors = [], onModelLoaded, onLoadError }: MapVi
                     isModelLoadedRef.current = true;
                     onModelLoaded?.();
                     Px.Poi.HideAllLine();
+                    Px.Camera.SetState({
+                      "position": {
+                        "x": 190.61868352303267,
+                        "y": 52.77692175977555,
+                        "z": 41.30953308299282
+                      },
+                      "rotation": {
+                        "x": -0.9892673318507813,
+                        "y": 0.42594058194998086,
+                        "z": 0.5611441514014773
+                      }
+                    }, 1.0)
                 });
             } catch (error) {
                 console.error('3D 모델 로드 중 오류 발생:', error);
@@ -59,6 +77,9 @@ const MapViewer = ({ modelPath, floors = [], onModelLoaded, onLoadError }: MapVi
     
     return (
         <>
+          {/*<button*/}
+          {/*  className='bg-red fixed z-100'*/}
+          {/*  onClick={clicktest} >test</button>*/}
           <FloorSelector floors={floorSelectorItems} />
           <ZoomControls />
           <div className="engine absolute inset-0 z-0">

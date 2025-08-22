@@ -205,28 +205,29 @@ const LightDetails = ({ device }: { device: Light }) => (
   </div>
 );
 
-const ShutterDetails = ({ device }: { device: Shutter }) => (
-  <div className="bg-gray-800/50 rounded-lg p-5 border border-gray-500/40">
-    <h4 className="text-white font-medium flex items-center gap-2 mb-5 text-lg">
-      <svg className="w-5 h-5 text-orange-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
-              d="M19 9l-7 7-7-7M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2zM8 12h8" />
-      </svg>
-      <span className="font-medium text-white">셔터 상태</span>
-    </h4>
-    <div className="bg-orange-950/30 rounded-lg p-4 border border-orange-500/30">
-      <div className="bg-primary-900/40 rounded-lg p-3.5 border border-primary-700/30">
-        <div className="flex items-center gap-2 mb-2.5 text-orange-200">
-          <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
-                  d="M7 16V4m0 0L3 8m4-4l4 4m6 0v12m0 0l4-4m-4 4l-4-4" />
-          </svg>
-          동작 정보
-        </div>
-        <StatusRow label="동작 상태" status={device.status} type="shutter" />
-      </div>
-    </div>
-  </div>
+const ShutterDetails = () => (
+  <div></div>
+  // <div className="bg-gray-800/50 rounded-lg p-5 border border-gray-500/40">
+  //   <h4 className="text-white font-medium flex items-center gap-2 mb-5 text-lg">
+  //     <svg className="w-5 h-5 text-orange-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+  //       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
+  //             d="M19 9l-7 7-7-7M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2zM8 12h8" />
+  //     </svg>
+  //     <span className="font-medium text-white">셔터 상태</span>
+  //   </h4>
+  //   <div className="bg-orange-950/30 rounded-lg p-4 border border-orange-500/30">
+  //     <div className="bg-primary-900/40 rounded-lg p-3.5 border border-primary-700/30">
+  //       <div className="flex items-center gap-2 mb-2.5 text-orange-200">
+  //         <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+  //           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
+  //                 d="M7 16V4m0 0L3 8m4-4l4 4m6 0v12m0 0l4-4m-4 4l-4-4" />
+  //         </svg>
+  //         동작 정보
+  //       </div>
+  //       <StatusRow label="동작 상태" status={device.status} type="shutter" />
+  //     </div>
+  //   </div>
+  // </div>
 );
 
 const FireSensorDetails = ({ device }: { device: FireSensor }) => (
@@ -304,47 +305,49 @@ const EscalatorDetails = ({ device }: { device: Escalator }) => (
 
 const WaterTankDetails = ({ device }: { device: WaterTank }) => (
   <div className="space-y-4">
-    <h4 className="text-primary-100 font-medium flex items-center gap-2">
-      <svg className="w-5 h-5 text-primary-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
-              d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
-      </svg>
-      물탱크 상태
-    </h4>
-    <div className="grid gap-4">
-      <div className="bg-gray-800/40 rounded-lg p-4 border border-gray-500/30">
-        <div className="grid gap-4">
-          <div className="grid grid-cols-2 gap-4">
-            <div className="bg-primary-900/30 rounded-lg p-3 border border-primary-700/20">
-              <div className="flex items-center gap-2 mb-2 text-primary-300">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
-                        d="M12 22a7 7 0 0 0 7-7c0-2-1-3.9-3-5.5s-3.5-4-4-6.5c-.5 2.5-2 4.9-4 6.5C6 11.1 5 13 5 15a7 7 0 0 0 7 7z" />
-                </svg>
-                수압
-              </div>
-              <StatusRow label="수압 값" status={device.waterPressure} type="value" />
-            </div>
-            <div className="bg-primary-900/30 rounded-lg p-3 border border-primary-700/20">
-              <div className="flex items-center gap-2 mb-2 text-primary-300">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
-                        d="M12 22a7 7 0 0 0 7-7c0-2-1-3.9-3-5.5s-3.5-4-4-6.5c-.5 2.5-2 4.9-4 6.5C6 11.1 5 13 5 15a7 7 0 0 0 7 7z" />
-                </svg>
-                수위
-              </div>
-              <StatusRow label="수위 값" status={device.waterLevel} type="value" />
-            </div>
-          </div>
-          <div className="bg-primary-900/30 rounded-lg p-3 border border-primary-700/20">
-            <div className="grid gap-3">
-              <StatusRow label="저수위 상태" status={device.lowWaterLevelStatus} type="waterLevel" />
-              <StatusRow label="고수위 상태" status={device.highWaterLevelStatus} type="waterLevel" />
-              <StatusRow label="만수위 상태" status={device.fullWaterLevelStatus} type="waterLevel" />
-            </div>
-            {
-              device.waterLevel && device.fullWaterLevelSetting && device.highWaterLevelSetting && device.lowWaterLevelSetting &&
-                  (<div className="bg-gray-800/40 rounded-lg p-4 border border-gray-500/30">
+    {
+      device.waterLevel && device.fullWaterLevelSetting && device.highWaterLevelSetting && device.lowWaterLevelSetting &&
+      (
+        <>
+          <h4 className="text-primary-100 font-medium flex items-center gap-2">
+            <svg className="w-5 h-5 text-primary-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
+                    d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
+            </svg>
+            물탱크 상태
+          </h4>
+          <div className="grid gap-4">
+            <div className="bg-gray-800/40 rounded-lg p-4 border border-gray-500/30">
+              <div className="grid gap-4">
+                <div className="grid grid-cols-2 gap-4">
+                  <div className="bg-primary-900/30 rounded-lg p-3 border border-primary-700/20">
+                    <div className="flex items-center gap-2 mb-2 text-primary-300">
+                      <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
+                              d="M12 22a7 7 0 0 0 7-7c0-2-1-3.9-3-5.5s-3.5-4-4-6.5c-.5 2.5-2 4.9-4 6.5C6 11.1 5 13 5 15a7 7 0 0 0 7 7z" />
+                      </svg>
+                      수압
+                    </div>
+                    <StatusRow label="수압 값" status={device.waterPressure} type="value" />
+                  </div>
+                  <div className="bg-primary-900/30 rounded-lg p-3 border border-primary-700/20">
+                    <div className="flex items-center gap-2 mb-2 text-primary-300">
+                      <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
+                              d="M12 22a7 7 0 0 0 7-7c0-2-1-3.9-3-5.5s-3.5-4-4-6.5c-.5 2.5-2 4.9-4 6.5C6 11.1 5 13 5 15a7 7 0 0 0 7 7z" />
+                      </svg>
+                      수위
+                    </div>
+                    <StatusRow label="수위 값" status={device.waterLevel} type="value" />
+                  </div>
+                </div>
+                <div className="bg-primary-900/30 rounded-lg p-3 border border-primary-700/20">
+                  <div className="grid gap-3">
+                    <StatusRow label="저수위 상태" status={device.lowWaterLevelStatus} type="waterLevel" />
+                    <StatusRow label="고수위 상태" status={device.highWaterLevelStatus} type="waterLevel" />
+                    <StatusRow label="만수위 상태" status={device.fullWaterLevelStatus} type="waterLevel" />
+                  </div>
+                  <div className="bg-gray-800/40 rounded-lg p-4 border border-gray-500/30">
                     <div className="flex items-center gap-2 mb-3 text-blue-300">
                       <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
@@ -353,20 +356,21 @@ const WaterTankDetails = ({ device }: { device: WaterTank }) => (
                       현재 수위 상태
                     </div>
                     <div className="h-50 bg-primary-950/80 rounded-lg border border-primary-700/30 relative overflow-hidden">
+                      <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-blue-500/40 to-blue-500/20 transition-all duration-500"
+                           style={{ height: device.waterLevel?.ioValue ? `${device.waterLevel.ioValue}%` : '35%', }}>
+                        <div
+                          className="absolute top-0 left-0 right-0 h-[1px] bg-blue-400/40 shadow-lg shadow-blue-400/30" />
+                      </div>
                       <div
-                          className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-blue-500/40 to-blue-500/20 transition-all duration-500"
-                          style={{
-                            height: device.waterLevel?.ioValue ? `${device.waterLevel.ioValue}%` : '35%',
-                          }}
-                      >
-                        <div className="absolute top-0 left-0 right-0 h-[1px] bg-blue-400/40 shadow-lg shadow-blue-400/30" />
+                        className="absolute top-0 left-0 right-0 border-t border-dashed border-blue-400/30 flex justify-end"
+                        style={{ top: `${100 - Number(device.fullWaterLevelSetting?.ioValue)}%` }}>
+                        <div
+                          className="bg-primary-950 text-blue-300 text-xs px-2 py-0.5 rounded-md mr-2">만수위
+                        </div>
                       </div>
-                      <div className="absolute top-0 left-0 right-0 border-t border-dashed border-blue-400/30 flex justify-end"
-                           style={{ top: `${100 - Number(device.fullWaterLevelSetting?.ioValue)}%` }}>
-                        <div className="bg-primary-950 text-blue-300 text-xs px-2 py-0.5 rounded-md mr-2">만수위</div>
-                      </div>
-                      <div className="absolute top-0 left-0 right-0 border-t border-dashed border-blue-400/30 flex justify-end"
-                           style={{ top: `${100 - Number(device.highWaterLevelSetting?.ioValue)}%` }}>
+                      <div
+                        className="absolute top-0 left-0 right-0 border-t border-dashed border-blue-400/30 flex justify-end"
+                        style={{ top: `${100 - Number(device.highWaterLevelSetting?.ioValue)}%` }}>
                         <div className="bg-primary-950 text-blue-300 text-xs px-2 py-0.5 rounded-md mr-2">고수위</div>
                       </div>
                       <div className="absolute top-0 left-0 right-0 border-t border-dashed border-blue-400/30 flex justify-end"
@@ -374,13 +378,15 @@ const WaterTankDetails = ({ device }: { device: WaterTank }) => (
                         <div className="bg-primary-950 text-blue-300 text-xs px-2 py-0.5 rounded-md mr-2">저수위</div>
                       </div>
                     </div>
-                  </div>)
-            }
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-      {device.pumps && device.pumps.length > 0 && <PumpList pumps={device.pumps} />}
-    </div>
+        </>
+      )
+    }
+    {device.pumps && device.pumps.length > 0 && <PumpList pumps={device.pumps} />}
   </div>
 );
 
@@ -640,7 +646,7 @@ const DeviceDetailContent: React.FC<DeviceDetailContentProps> = ({ deviceData, d
       return <LightDetails device={deviceData as Light} />;
     case 'shutter':
     case 'shutters':
-      return <ShutterDetails device={deviceData as Shutter} />;
+      return <ShutterDetails />;
     case 'fire-sensor':
     case 'fire-sensors':
       return <FireSensorDetails device={deviceData as FireSensor} />;

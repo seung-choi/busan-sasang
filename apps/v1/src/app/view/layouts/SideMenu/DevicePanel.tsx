@@ -3,11 +3,12 @@ import * as Px from '@plug/engine/src';
 import useStationStore from '@plug/v1/app/stores/stationStore';
 import useDeviceModalStore from '@plug/v1/app/stores/deviceModalStore';
 import useSideMenuStore from '@plug/v1/app/stores/sideMenuStore';
+import { nfluxService, nfluxWidgetService } from '@plug/v1/app/api';
 
 interface DeviceData {
   id: string;
   name: string;
-  code: string;
+  code?: string;
   feature: DeviceFeature;
 }
 
@@ -39,11 +40,12 @@ const DevicePanel: React.FC<DevicePanelProps> = ({
   const [searchValue, setSearchValue] = useState('');
   const [filteredDevices, setFilteredDevices] = useState<DeviceData[]>(devices);
   const [expandedSections, setExpandedSections] = useState<string[]>(['group', 'individual']);
+  const [allDevices, setAllDevices] = useState<DeviceData[]>([]);
 
   const isSelected = categoryId ? selectedMenus.some(menu => menu.id === categoryId) : false;
-  const baseType = categoryType.endsWith('Groups')
-    ? categoryType.replace(/Groups$/, '')
-    : categoryType;
+  // const baseType = categoryType.endsWith('Groups')
+  //   ? categoryType.replace(/Groups$/, '')
+  //   : categoryType;
 
   const { groupDevices, individualDevices, hasGroups, hasIndividuals } = React.useMemo(() => {
     const groupItems: DeviceData[] = [];
@@ -67,23 +69,69 @@ const DevicePanel: React.FC<DevicePanelProps> = ({
 
   useEffect(() => {
     if (searchValue) {
-      const filtered = devices.filter((device) =>
+      const filtered = allDevices.filter((device) =>
         device.name.toLowerCase().includes(searchValue.toLowerCase())
       );
       setFilteredDevices(filtered);
     } else {
-      setFilteredDevices(devices);
+      setFilteredDevices(allDevices);
     }
-  }, [searchValue, devices]);
+  }, [searchValue, allDevices]);
 
   useEffect(() => {
     setSearchValue('');
     setExpandedSections(['group', 'individual']);
   }, [categoryId]);
 
-  const handleDeviceClick = (device: DeviceData) => {
+  useEffect(() => {
+    const fetchDevices = async () => {
+      if (categoryType === 'lights' || categoryType === 'lightGroups') {
+        try {
+          const lights = await nfluxService.getLights(categoryId || '');
+          const lightgroups = await nfluxWidgetService.getLightGroups(categoryId || '');
+
+          setAllDevices([
+            ...lights.map(light => ({
+              id: light.lightId,
+              name: light.lightName,
+              feature: {
+                id: light.lightId,
+                floorId:  '',
+                assetId: '',
+              },
+            })),
+            ...lightgroups.map(group => ({
+              id: group.lightGroupId,
+              name: group.lightGroupName,
+              feature: {
+                id: group.lightGroupId,
+                floorId: '',
+                assetId: '',
+              },
+            })),
+          ]);
+        } catch (error) {
+          console.error('조명 데이터 가져오기 실패:', error);
+        }
+      }
+    };
+
+    fetchDevices();
+  }, [categoryType, categoryId]);
+
+  const handleDeviceClick = async (device: DeviceData) => {
     try {
-      if (device.feature.id && device.feature.floorId) {
+      if (device.feature.id) {
+        let deviceData = null;
+
+        if (categoryType === 'lights') {
+          const lights = await nfluxService.getLights(categoryId || '');
+          deviceData = lights.find(light => light.lightId === device.id);
+        } else if (categoryType === 'lightgroups') {
+          const lightgroups = await nfluxWidgetService.getLightGroups(categoryId || '');
+          deviceData = lightgroups.find(group => group.lightGroupId === device.id);
+        }
+
         setCurrentFloor(device.feature.floorId);
 
         Px.Model.HideAll();
@@ -94,9 +142,16 @@ const DevicePanel: React.FC<DevicePanelProps> = ({
           target: { id: device.feature.id }
         };
         Px.EventDispatcher.InternalHandler.dispatchEvent(evt);
+
+        if (deviceData) {
+          console.log('장치 데이터:', deviceData);
+          openModal(device.name, device.id, categoryType, String(externalCode));
+        } else {
+          console.error('장치를 찾을 수 없습니다. ID:', device.id);
+        }
       }
     } catch (error) {
-      console.error('이동 중 오류 발생:', error);
+      console.error('장치 클릭 처리 중 오류 발생:', error);
     }
   };
 
@@ -145,7 +200,7 @@ const DevicePanel: React.FC<DevicePanelProps> = ({
             key={device.id}
             className="px-4 py-3 bg-primary-700/40 hover:bg-primary-600/40 rounded-lg cursor-pointer text-gray-200 hover:text-white transition-all flex items-center"
             onClick={() => {
-              openModal(device.name, device.id, baseType, String(externalCode));
+              openModal(device.name, device.id, categoryType, String(externalCode));
               handleDeviceClick(device);
             }}
           >
@@ -186,12 +241,18 @@ const DevicePanel: React.FC<DevicePanelProps> = ({
                   viewBox="0 0 24 24"
                   stroke="currentColor"
                 >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
-                  />
+                  <path d="M2.97 12.92A2 2 0 0 0 2 14.63v3.24a2 2 0 0 0 .97 1.71l3 1.8a2 2 0 0 0 2.06 0L12 19v-5.5l-5-3-4.03 2.42Z"/>
+                  <path d="m7 16.5-4.74-2.85"/>
+                  <path d="m7 16.5 5-3"/>
+                  <path d="M7 16.5v5.17"/>
+                  <path d="M12 13.5V19l3.97 2.38a2 2 0 0 0 2.06 0l3-1.8a2 2 0 0 0 .97-1.71v-3.24a2 2 0 0 0-.97-1.71L17 10.5l-5 3Z"/>
+                  <path d="m17 16.5-5-3"/>
+                  <path d="m17 16.5 4.74-2.85"/>
+                  <path d="M17 16.5v5.17"/>
+                  <path d="M7.97 4.42A2 2 0 0 0 7 6.13v4.37l5 3 5-3V6.13a2 2 0 0 0-.97-1.71l-3-1.8a2 2 0 0 0-2.06 0l-3 1.8Z"/>
+                  <path d="M12 8 7.26 5.15"/>
+                  <path d="m12 8 4.74-2.85"/>
+                  <path d="M12 13.5V8"/>
                 </svg>
                 <span className="text-white font-medium">그룹</span>
               </div>
@@ -222,7 +283,7 @@ const DevicePanel: React.FC<DevicePanelProps> = ({
                     key={device.id}
                     className="px-4 py-2.5 bg-primary-700/30 hover:bg-primary-600/40 rounded-lg cursor-pointer text-gray-200 hover:text-white transition-all flex items-center"
                     onClick={() => {
-                      openModal(device.name, device.id, baseType, String(externalCode));
+                      openModal(device.name, device.id, categoryType, String(externalCode));
                       handleDeviceClick(device);
                     }}
                   >
@@ -234,10 +295,10 @@ const DevicePanel: React.FC<DevicePanelProps> = ({
                       stroke="currentColor"
                     >
                       <path
+                        d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.106-3.105c.32-.322.863-.22.983.218a6 6 0 0 1-8.259 7.057l-7.91 7.91a1 1 0 0 1-2.999-3l7.91-7.91a6 6 0 0 1 7.057-8.259c.438.12.54.662.219.984z"
                         strokeLinecap="round"
                         strokeLinejoin="round"
                         strokeWidth={2}
-                        d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
                       />
                     </svg>
                     {device.name}
@@ -298,7 +359,7 @@ const DevicePanel: React.FC<DevicePanelProps> = ({
                     key={device.id}
                     className="px-4 py-2.5 bg-primary-700/30 hover:bg-primary-600/40 rounded-lg cursor-pointer text-gray-200 hover:text-white transition-all flex items-center"
                     onClick={() => {
-                      openModal(device.name, device.id, baseType, String(externalCode));
+                      openModal(device.name, device.id, categoryType, String(externalCode));
                       handleDeviceClick(device);
                     }}
                   >
@@ -309,11 +370,24 @@ const DevicePanel: React.FC<DevicePanelProps> = ({
                       viewBox="0 0 24 24"
                       stroke="currentColor"
                     >
+                      <path d="M10 15h4" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} />
                       <path
+                        d="m14.817 10.995-.971-1.45 1.034-1.232a2 2 0 0 0-2.025-3.238l-1.82.364L9.91 3.885a2 2 0 0 0-3.625.748L6.141 6.55l-1.725.426a2 2 0 0 0-.19 3.756l.657.27"
                         strokeLinecap="round"
                         strokeLinejoin="round"
                         strokeWidth={2}
-                        d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
+                      />
+                      <path
+                        d="m18.822 10.995 2.26-5.38a1 1 0 0 0-.557-1.318L16.954 2.9a1 1 0 0 0-1.281.533l-.924 2.122"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                      />
+                      <path
+                        d="M4 12.006A1 1 0 0 1 4.994 11H19a1 1 0 0 1 1 1v7a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
                       />
                     </svg>
                     {device.name}

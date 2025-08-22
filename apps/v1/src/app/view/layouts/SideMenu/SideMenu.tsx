@@ -123,17 +123,9 @@ const SideMenu: React.FC = () => {
 
 
   const mergeGroupAndIndividualCategories = (categories: Category[]): Category[] => {
-
     const baseTypeMap: Record<string, string> = {
-      'shutterGroups': 'shutters',
-      'lightGroups': 'lights',
+      'lightgroups': 'lights',
     };
-
-    const typeToCategory: Record<string, Category> = {};
-    categories.forEach(category => {
-      const path = category.contextPath.replace(/\//g, '');
-      typeToCategory[path] = category;
-    });
 
     const result: Category[] = [];
     const processedTypes = new Set<string>();
@@ -148,18 +140,16 @@ const SideMenu: React.FC = () => {
       if (type.endsWith('Groups')) {
         const baseType = baseTypeMap[type];
 
-        if (baseType && typeToCategory[baseType]) {
-          const individualCategory = typeToCategory[baseType];
+        if (baseType) {
+          const individualCategory = categories.find(cat => cat.contextPath.replace(/\//g, '') === baseType);
           const groupCategory = category;
 
-          const combinedDevices = [
-            ...groupCategory.devices,
-            ...individualCategory.devices
-          ];
-
           const combinedCategory: Category = {
-            ...individualCategory,
-            devices: combinedDevices
+            ...groupCategory,
+            devices: [
+              ...groupCategory.devices,
+              ...(individualCategory?.devices || []),
+            ]
           };
 
           result.push(combinedCategory);
@@ -169,10 +159,9 @@ const SideMenu: React.FC = () => {
           result.push(category);
           processedTypes.add(type);
         }
-      }
-      else if (!processedTypes.has(type)) {
+      } else if (!processedTypes.has(type)) {
         const groupType = Object.keys(baseTypeMap).find(key => baseTypeMap[key] === type);
-        if (!groupType || !typeToCategory[groupType]) {
+        if (!groupType || !categories.some(cat => cat.contextPath.replace(/\//g, '') === groupType)) {
           result.push(category);
           processedTypes.add(type);
         }

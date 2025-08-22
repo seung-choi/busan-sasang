@@ -39,7 +39,6 @@ const useDeviceData = (isOpen: boolean, deviceId: string | null, deviceType: str
         let data: DeviceData | null = null;
 
         switch (deviceType.toLowerCase()) {
-          case 'light':
           case 'lights': {
             const result = await nfluxService.getLights(stationId);
             data = result.find(item => item.lightId === deviceId) || null;
@@ -93,7 +92,6 @@ const useDeviceData = (isOpen: boolean, deviceId: string | null, deviceType: str
             data = result.find(item => item.airPurifierId === deviceId) || null;
             break;
           }
-          case 'lightgroup':
           case 'lightgroups': {
             const result = await nfluxWidgetService.getLightGroups(stationId);
             console.log('Light Groups:', result);
@@ -118,7 +116,7 @@ const useDeviceData = (isOpen: boolean, deviceId: string | null, deviceType: str
         }
 
         if (!data) {
-          throw new Error(`장비를 찾을 수 없습니다: ${deviceId}`);
+          throw new Error(`데이터를 찾을 수 없습니다: ${deviceId}`);
         }
 
         setDeviceData(data);

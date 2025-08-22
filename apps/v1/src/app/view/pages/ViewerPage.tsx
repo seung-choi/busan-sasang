@@ -129,7 +129,7 @@ const ViewerPage = () => {
   useEffect(() => {
     if (!simulationActive || !stationData) return;
 
-    const testInterval = 30000;
+    const testInterval = 900000;
     const interval = setInterval(() => {
       Px.Subway.Show("1_UP_SUBWAY");
       Px.Subway.Show("1_DOWN_SUBWAY");

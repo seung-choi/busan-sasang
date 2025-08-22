@@ -66,7 +66,8 @@ const createKyClient = (baseUrl: string, token?: string) => {
 
 
 // const BASE_URL = 'http://192.168.4.31:8090/HI-SMP';
-const BASE_URL = 'http://101.254.21.120:10300/HI-SMP';
+// const BASE_URL = 'http://101.254.21.120:10300/HI-SMP';
+const BASE_URL = '/HI-SMP';
 
 export const createNfluxApiClient = (customAuthToken?: string, stationId?: string) => {
   const token = customAuthToken || authToken || getAccessTokenFromStorage();
